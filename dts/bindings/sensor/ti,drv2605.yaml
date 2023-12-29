@@ -1,0 +1,6 @@
+description: |
+  TI DRV2605 sensor
+
+compatible: "ti,drv2605"
+
+include: base.yaml

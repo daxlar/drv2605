@@ -1,0 +1,6 @@
+name: DRV2605
+build:
+  cmake: .
+  kconfig: Kconfig
+  settings:
+    dts_root: .

@@ -1,0 +1,1 @@
+add_subdirectory_ifdef(CONFIG_DRV2605 drv2605)

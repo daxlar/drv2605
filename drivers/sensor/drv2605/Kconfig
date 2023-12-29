@@ -1,0 +1,6 @@
+config DRV2605
+	bool "DRV2605 Haptics Driver Sensor"
+	default n
+	depends on I2C
+	help
+	  Enable driver for the DRV2605 Haptics Driver Sensor.
