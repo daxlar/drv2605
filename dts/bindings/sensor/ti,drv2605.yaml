@@ -1,6 +1,16 @@
-description: |
-  TI DRV2605 sensor
+description: Texas Instruments DRV2605 haptics driver sensor
 
 compatible: "ti,drv2605"
 
-include: base.yaml
+include: ["i2c-device.yaml", "sensor-device.yaml"]
+# some notes
+# i2c-device.yaml:
+# contains base.yaml, power.yaml
+# base.yaml contains typical properties that might be used
+# power.yaml contains properties for nodes with variable power
+# contains on-bus (???)
+# contains the required reg property
+# sensor-device.yaml:
+# contains base.yaml
+# contains the friendly-name property
+
